@@ -1,0 +1,121 @@
+.header {
+    background: #ffffff;
+}
+
+.header__inner {
+    padding: 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.contact-form__content {
+    padding: 30px 15px;
+    max-width: 1500px;
+    background-color: #ebebeb;
+    width: auto;
+    height: 808px;
+}
+
+.contact-form__heading {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.form {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #1754fd;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    background: #ebebeb;
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.form__button-submit {
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #1754fd;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.form__group-title span {
+    color: #757575;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.form__label--required {
+    text-decoration: none;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+footer {
+    width: 1500px;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
